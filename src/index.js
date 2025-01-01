@@ -1,6 +1,6 @@
 "use strict";
-const driver = require("./open_driver");
-const { closeDriverAfterInput } = require("./close_driver");
+const driver = require("./config/open_driver");
+const { closeDriverAfterInput } = require("./config/close_driver");
 const dotenv = require("dotenv").config();
 
 async function main() {
